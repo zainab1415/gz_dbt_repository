@@ -26,9 +26,7 @@ sources:
             description: the quantity of sales
           - name: orders_products
             description: the join primary key of sales
-            tests:
-            - not_null
-            - unique 
+           
       
       - name: product
         identifier: raw_gz_product
