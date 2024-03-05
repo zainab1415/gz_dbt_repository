@@ -14,7 +14,7 @@ renamed as (
         shipping_fee_1,
         logcost,
         ship_cost,
-        orders_id || '-' || shipping_fee as orders_shipping
+        
 
     from source
 

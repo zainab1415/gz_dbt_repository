@@ -14,6 +14,7 @@ renamed as (
         pdt_id AS products_id,
         revenue,
         quantity
+        orders_id || '-' || products_id as orders_products
 
     from source
 

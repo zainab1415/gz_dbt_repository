@@ -19,6 +19,11 @@ sources:
             description: the revenue of sales
           - name: quantity
             description: the quantity of sales
+          - name: orders_products
+            description: the join primary key of sales
+            tests:
+            - not_null
+             - unique 
       
       - name: product
         identifier: raw_gz_product
@@ -39,10 +44,6 @@ sources:
         columns:
           - name: orders_id
             description: the forign key  of ship
-            tests:
-               - not_null
-               - unique 
-          - name: orders_shipping
             tests:
                - not_null
                - unique 
