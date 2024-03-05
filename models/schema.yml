@@ -12,9 +12,6 @@ sources:
           warn_after:
             count: 90
             period: day
-          error_after:
-            count: 90
-            period: day
         loaded_at_field: "CAST(date_date as TIMESTAMP)"
         columns:
           - name: date_date
