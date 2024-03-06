@@ -42,5 +42,5 @@ models:
       +materialized: table
     mart:
       +materialized: table
-    dbt_zainab_files:
-        +schema: dbt_zainab_files
+    Finance:
+        +schema: Finance
