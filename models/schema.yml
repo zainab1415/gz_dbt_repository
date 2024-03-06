@@ -61,13 +61,13 @@ sources:
 
 
       - name: adwords
-        identifier: raw_gz-adwords
+        identifier: raw_gz_adwords
       - name: bing
-        identifier: raw_gz-bing
+        identifier: raw_gz_bing
       - name: criteo
-        identifier: raw_gz-criteo
+        identifier: raw_gz_criteo
       - name: facebook
-        identifier: raw_gz-facebook
+        identifier: raw_gz_facebook
       
 
 
