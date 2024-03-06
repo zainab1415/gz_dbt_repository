@@ -60,5 +60,16 @@ sources:
             description: the ship cost of ship
 
 
+      - name: adwords
+        identifier: raw_gz-adwords
+      - name: bing
+        identifier: raw_gz-bing
+      - name: criteo
+        identifier: raw_gz-criteo
+      - name: facebook
+        identifier: raw_gz-facebook
+      
+
+
 
   
