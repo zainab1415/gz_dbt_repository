@@ -40,5 +40,5 @@ models:
     # Applies to all files under models/example/
     mart:
       +materialized: table
-      dbt_zainab:
-        +schema: dbt_zainab
+      dbt_zainab_files:
+        +schema: dbt_zainab_files
