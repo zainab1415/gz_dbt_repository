@@ -4,6 +4,14 @@ sources:
   - name: raw
     schema: gz_raw_data
     description: greenweez raw data source.
+    models:
+    mart:
+      materialized: table
+      dbt_zainab_files:
+        +models:
+          - name: finance_days.sql
+            description: finance days
+
     tables:
       - name: sales
         identifier: raw_gz_sales
@@ -56,3 +64,4 @@ sources:
             description: the logcost of ship
           - name: ship_cost
             description: the ship cost of ship
+  
