@@ -1,6 +1,8 @@
 version: 2
 
 sources:
+  - name: finance
+    schema: dbt_zainab_finance
 
   - name: raw
     schema: gz_raw_data
