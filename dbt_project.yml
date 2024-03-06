@@ -40,5 +40,5 @@ models:
     # Applies to all files under models/example/
     mart:
       +materialized: table
-      dbt_zainab_files:
+      dbt_zalmutawah:
         schema: finance_days.sql
