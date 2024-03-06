@@ -1,8 +1,9 @@
 version: 2
-
 sources:
   - name: finance
-    schema: dbt_zainab_finance
+    schema: dbt_zainab
+    tables:
+      - name: finance_days
 
   - name: raw
     schema: gz_raw_data
