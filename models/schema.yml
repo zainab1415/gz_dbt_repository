@@ -1,16 +1,15 @@
 version: 2
 
 sources:
+  - name: dbt_zainab_files
+    tables:
+      - name: finance_days.sql
+    mart:
+      materialized: table
+    
   - name: raw
     schema: gz_raw_data
     description: greenweez raw data source.
-    models:
-    mart:
-      materialized: table
-      dbt_zainab_files:
-        +models:
-          - name: finance_days.sql
-            description: finance days
 
     tables:
       - name: sales
@@ -64,4 +63,6 @@ sources:
             description: the logcost of ship
           - name: ship_cost
             description: the ship cost of ship
+
+
   
